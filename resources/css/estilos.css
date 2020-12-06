@@ -1,0 +1,94 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 16px;
+    font-family: Verdana, sans-serif;
+}
+
+header {
+    height: 15vh;
+    margin-top: 20px;
+}
+header h1 {
+    font-size: 3.125rem;
+    height: 90%;
+    margin: 0;
+}
+
+
+
+.main-section {
+    margin-top: 20px;
+    height: 75vh;
+    margin-bottom: 40px;
+}
+
+@media screen and (max-width: 675px) {
+ header {
+    height: 20vh;
+ }   
+
+ .main-section {
+     height: 65vh;
+ }
+}
+
+
+.link-app {
+    color: aquamarine;
+    display: block;
+    font-size: |1rem;
+}
+
+.main-section video {
+    max-height: 100%;
+}
+
+.travel-guide-container {
+    margin-top: 70px;
+}
+
+.travel-guide-container h2 {
+    font-weight: 300;
+    font-size: 2.625rem;
+}
+
+.travel-guide-container p {
+    font-size: 1.3125rem;
+    color: gray;    
+}
+
+.travel-guide-container .image-container {
+    margin-bottom: 40px;
+}
+
+.travel-guide-container .phone-container {
+    margin-bottom: 30px;
+}
+
+.travel-guide-container h3 {
+    font-size: 1.875rem;    
+}
+
+.travel-guide-container p .link-app {
+    font-size: 1rem;
+}
+
+footer {
+    text-align: right;
+    padding: 20px;
+    color: gray;
+}
