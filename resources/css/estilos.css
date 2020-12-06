@@ -24,7 +24,7 @@ header {
 }
 header h1 {
     font-size: 3.125rem;
-    height: 90%;
+    max-height: 90%;
     margin: 0;
 }
 
@@ -36,9 +36,9 @@ header h1 {
     margin-bottom: 40px;
 }
 
-@media screen and (max-width: 675px) {
+@media screen and (max-width: 685px) {
  header {
-    height: 20vh;
+    height: 24vh;
  }   
 
  .main-section {
@@ -58,7 +58,7 @@ header h1 {
 }
 
 .travel-guide-container {
-    margin-top: 70px;
+   margin: 70px auto 0 auto;
 }
 
 .travel-guide-container h2 {
@@ -72,8 +72,14 @@ header h1 {
 }
 
 .travel-guide-container .image-container {
-    margin-bottom: 40px;
+    margin: 0 auto 40px auto;
+    max-width: 95%;
 }
+
+.travel-guide-container .image-container img {
+    width: 100%;
+}
+
 
 .travel-guide-container .phone-container {
     margin-bottom: 30px;
